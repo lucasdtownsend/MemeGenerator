@@ -1,0 +1,31 @@
+.topOverlay {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 13%;
+    left:50%;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    word-wrap: break-word;
+    width: 500px;
+}
+
+.bottomOverlay {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    bottom: 7%;
+    left: 50%;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    word-wrap: break-word;
+    width: 500px;
+}
+
+.previewImage {
+    position: relative;
+    z-index: -1;
+}
+

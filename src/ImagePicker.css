@@ -1,0 +1,9 @@
+li{ 
+    list-style: none;
+    display: flex;
+    padding: .5em;
+}
+
+.selectedImage{
+    border: 3px solid red;
+}
